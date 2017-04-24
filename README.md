@@ -1,4 +1,6 @@
-# DirUtil
+# easydir 
+
+### npm i -save easydir 
 
 ## API
 
