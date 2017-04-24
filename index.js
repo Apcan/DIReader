@@ -1,7 +1,7 @@
 const fs = require('fs'), path = require('path');
-const Promise = require('promise'), co = require('co');
 const DIR_TYPE = '_dir', FILE_TYPE = '_file';
 const easyzip = require('easyzip');
+
 const READ_OPT_DEFAULT = { deep: true, exclude: [] };
 
 function readir(dirpath, opt) {

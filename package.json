@@ -1,10 +1,10 @@
 {
   "name": "dirutil",
   "version": "1.0.0",
-  "description": "read dir and show files in dir",
+  "description": "dir utils",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "keywords": [
     "dir",
@@ -15,9 +15,11 @@
   ],
   "author": "apcan",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koajs/send.git"
+  },
   "dependencies": {
-    "co": "^4.6.0",
-    "easyzip": "^1.0.3",
-    "promise": "^7.1.1"
+    "easyzip": "^1.0.3"
   }
 }
