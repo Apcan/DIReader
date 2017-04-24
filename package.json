@@ -1,0 +1,23 @@
+{
+  "name": "dirutil",
+  "version": "1.0.0",
+  "description": "read dir and show files in dir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dir",
+    "file",
+    "files",
+    "read",
+    "文件夹"
+  ],
+  "author": "apcan",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "easyzip": "^1.0.3",
+    "promise": "^7.1.1"
+  }
+}
