@@ -1,6 +1,6 @@
 {
   "name": "easydir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "dir utils",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koajs/send.git"
+    "url": "git+https://github.com/Apcan/DirUtil.git"
   },
   "dependencies": {
     "easyzip": "^1.0.3"
