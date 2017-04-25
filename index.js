@@ -82,3 +82,8 @@ function zipdir(p, z) {
   return easyzip.dirzipAsync(p, z);
 }
 exports.zipdir = zipdir;
+
+exports.TYPE = {
+  DIR_TYPE: DIR_TYPE,
+  FILE_TYPE: FILE_TYPE
+}
