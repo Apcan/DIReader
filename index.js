@@ -2,9 +2,9 @@ const fs = require('fs'), path = require('path');
 const DIR_TYPE = '_dir', FILE_TYPE = '_file';
 const easyzip = require('easyzip');
 
-const READ_OPT_DEFAULT = { deep: true, exclude: [] };
 
 function readir(dirpath, opt) {
+  const READ_OPT_DEFAULT = { deep: true, exclude: [] };
   if (!opt) opt = {};
   opt = Object.assign(READ_OPT_DEFAULT, opt);
   let _all = fs.readdirSync(dirpath)
