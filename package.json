@@ -1,6 +1,6 @@
 {
   "name": "easydir",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "dir utils",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   },
   "dependencies": {
     "easyzip": "^1.0.3"
+  },
+  "devDependencies": {
+    "lerna": "^2.9.0"
   }
 }

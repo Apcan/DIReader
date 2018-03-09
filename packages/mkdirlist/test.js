@@ -1,0 +1,1 @@
+require('./index')('./a/b/c')
