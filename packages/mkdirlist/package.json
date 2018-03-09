@@ -1,0 +1,15 @@
+{
+  "name": "mkdirlist",
+  "version": "2.0.1",
+  "description": "make dir for path",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "dir",
+    "make"
+  ],
+  "author": "apcan",
+  "license": "ISC"
+}
