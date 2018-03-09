@@ -1,8 +1,8 @@
 const fs = require('fs'), path = require('path');
 const DIR_TYPE = '_dir', FILE_TYPE = '_file';
 const easyzip = require('easyzip');
-const readir = require('readir')
-const mkdir = require('mkdirlist')
+const readir = require('./packages/readir')
+const mkdir = require('./packages/mkdirlist')
 exports.readir = readir;
 exports.mkdir = mkdir;
 
